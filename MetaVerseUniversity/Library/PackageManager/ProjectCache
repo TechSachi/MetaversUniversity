@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638082552120149732
-    m_Hash: 1257407754
+      ticks: 638082563766378009
+    m_Hash: 3818008575
   m_LockFileStatus:
     m_FilePath: A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638082552130219759
-    m_Hash: 109204875
+      ticks: 638082563766378009
+    m_Hash: 2778049559
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
