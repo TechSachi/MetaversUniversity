@@ -114,6 +114,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:CONDITIONAL_IGNORE_SUPPORTED
@@ -121,8 +122,8 @@
 -define:NO_COV_EDITORPREF
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity
+A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51552
-Successfully changed project path to: A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity
-A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity
+60846
+Successfully changed project path to: A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity
+A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path A:/Techsachi/Empty/MetaversUniversity/MetaVerseUniversity/Assets
+[Subsystems] Discovering subsystems at path A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,119 +63,88 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008301 seconds.
+Registered in 0.008022 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 90.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.697 seconds
+- Completed reload, in  0.665 seconds
 Domain Reload Profiling:
-	ReloadAssembly (698ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (666ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (489ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (300ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010062 seconds.
+Registered in 0.006435 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image A:\Techsachi\Empty\MetaversUniversity\MetaVerseUniversity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image A:\Techsachi\Empty\MetaversUniversity\MetaVerseUniversity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Cannot connect to Unity Package Manager local server
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-StarterAssetsPackageChecker.PackageChecker:CheckPackage ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at StarterAssetsPackageChecker.PackageChecker.CheckPackage () [0x001f7] in <2a478d25b4d84b2dbb34cb7d710194f5>:0 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c9d3ffd4b98649ee9989e1908eaca019>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c9d3ffd4b98649ee9989e1908eaca019>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c9d3ffd4b98649ee9989e1908eaca019>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <dc1a47a5816e4be7bc6817ee4d339e75>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.857 seconds
+- Completed reload, in  1.480 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1859ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1481ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1609ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1224ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (335ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (1113ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (634ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (338ms)
-				ProcessInitializeOnLoadMethodAttributes (551ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (184.9 KB). Loaded Objects now: 4340.
-Memory consumption went from 140.6 MB to 140.4 MB.
-Total: 9.283800 ms (FindLiveObjects: 1.295700 ms CreateObjectMapping: 0.987600 ms MarkObjects: 6.684900 ms  DeleteObjects: 0.313000 ms)
+Unloading 44 unused Assets / (184.5 KB). Loaded Objects now: 4340.
+Memory consumption went from 140.6 MB to 140.5 MB.
+Total: 4.600500 ms (FindLiveObjects: 0.524800 ms CreateObjectMapping: 0.181400 ms MarkObjects: 3.718800 ms  DeleteObjects: 0.173000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -190,109 +159,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20836.391958 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
-  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1d1b9cc5981800f58c5721d5bab672') in 0.257053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
-  artifactKey: Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx using Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45dfb5e60c672e88093a194605aad8') in 0.025733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
-  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff52970cb96c49b3c595be9e32ee4f') in 0.315263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
-  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a5103059d613cc8b7b801dcb8ccc7e') in 0.068460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab
-  artifactKey: Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab using Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457d8ff448a6a059e474cbd59b46788d') in 0.017562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
-  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5934930a0046d62fa380d4f0f66dbf') in 0.015386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
-  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7d5e93aeb6aa1188c3a32c8cf8d814') in 0.024333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab
-  artifactKey: Guid(f0271df749728104eac22c3d897fd8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab using Guid(f0271df749728104eac22c3d897fd8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e72f3106de9fdeea0d218bd97ecc9be') in 0.002097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
-  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124e25ee6ec889df5d75d95b12ed2e13') in 0.284547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab
-  artifactKey: Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab using Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694e93f2be7eefe15b7ee1cfed60d957') in 0.002149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Characters/Kate/Ch21_body.mat
-  artifactKey: Guid(7076721257071e94a9ab13f142d53ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kate/Ch21_body.mat using Guid(7076721257071e94a9ab13f142d53ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771e16a33e103e229ccaf31137f1561d') in 0.016033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Characters/Kate/Ch21_hair.mat
-  artifactKey: Guid(bc283ee03e467bc41bb15601c3060006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kate/Ch21_hair.mat using Guid(bc283ee03e467bc41bb15601c3060006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77c3ddc8e26f65d833a3e2d9cadbfcc') in 0.016973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
-  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9636eb5620ffcfe04cf8027b1fcffe56') in 0.023548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Characters/Roth/Roth.fbx
-  artifactKey: Guid(f1f0910da58942a41974c61b6a942a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Roth/Roth.fbx using Guid(f1f0910da58942a41974c61b6a942a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c40dbffa574f9f4622786f17378c25') in 0.097515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
-  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960f24860aed478f45c97c29d250c51') in 0.014640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
-  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547b072c7e9e2186d33782799cb501d') in 0.028478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab
-  artifactKey: Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab using Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e12acf8b70a5113d71ebe4219af0211') in 0.014913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Characters/Megan/Megan.fbx
-  artifactKey: Guid(0f5590cadca2cbe4ea9b47aed0241970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Megan/Megan.fbx using Guid(0f5590cadca2cbe4ea9b47aed0241970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e876ddf4345f3011a002200b9ff2fba0') in 0.081961 seconds 
+  Time since last request: 1725.222692 seconds.
+  path: Assets/Scripts/Login_System.cs
+  artifactKey: Guid(faf66587c28978c4a98a0564d440b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_System.cs using Guid(faf66587c28978c4a98a0564d440b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd300b43505c9a0980431934ec13a78') in 0.025055 seconds 
