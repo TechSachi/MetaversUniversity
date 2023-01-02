@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/College.unity
+    guid: d89cf76eac4a4d6409d9e8d6afac28fe
   m_configObjects: {}
