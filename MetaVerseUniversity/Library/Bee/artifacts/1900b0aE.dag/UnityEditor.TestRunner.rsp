@@ -120,6 +120,10 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.dll"
+-r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Mdb.dll"
+-r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Pdb.dll"
+-r:"A:/Techsachi/Project/MetaversUniversity/MetaVerseUniversity/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Rocks.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
