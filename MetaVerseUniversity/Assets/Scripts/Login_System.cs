@@ -3,37 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Unity.Netcode;
+using UnityEngine.UI;
+using TMPro;
 
 public class Login_System : NetworkBehaviour
 {
-    // Start is called before the first frame update
-    public Spawner User;
-    void Start()
-    {
+    public TMP_InputField Username;
+    public TMP_InputField Password;
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void Login()
     {
+        Debug.Log(Username.text);
+        
         SceneManager.sceneLoaded += OnLevelFinishedLoading;
         SceneManager.LoadScene(0);
     }
     
-
+    
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "College")
         {
-            Debug.Log("Entered College");
-            GameObject NetworkManag = GameObject.FindGameObjectWithTag("Network Manager");
-            NetworkManag.GetComponent<NetworkManager>().StartHost();
- 
+            if (Username.text == "T")
+            {
+                Debug.Log("Entered College as teacher");
+                GameObject NetworkManag = GameObject.FindGameObjectWithTag("Network Manager");
+                NetworkManag.GetComponent<NetworkManager>().StartClient();
+            }
+            else
+            {
+                Debug.Log("Entered College as student");
+                GameObject NetworkManag = GameObject.FindGameObjectWithTag("Network Manager");
+                NetworkManag.GetComponent<NetworkManager>().StartClient();
+            }
         }
     }
 }
