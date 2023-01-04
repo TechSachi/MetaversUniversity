@@ -16,7 +16,7 @@ public class Login_System : NetworkBehaviour
         Debug.Log(Username.text);
         
         SceneManager.sceneLoaded += OnLevelFinishedLoading;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     
     
@@ -29,15 +29,17 @@ public class Login_System : NetworkBehaviour
             {
                 Debug.Log("Entered College as teacher");
                 GameObject NetworkManag = GameObject.FindGameObjectWithTag("Network Manager");
-                NetworkManag.GetComponent<NetworkManager>().StartClient();
+                NetworkManag.GetComponent<NetworkManager>().StartHost();
             }
             else
             {
                 Debug.Log("Entered College as student");
                 GameObject NetworkManag = GameObject.FindGameObjectWithTag("Network Manager");
                 NetworkManag.GetComponent<NetworkManager>().StartClient();
+     
             }
         }
     }
+    
 }
 
