@@ -410,6 +410,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/GAS/Editor/gaseditor.cs"
 "Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs"
 "Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs"
 "Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"

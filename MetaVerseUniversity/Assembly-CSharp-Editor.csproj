@@ -59,6 +59,7 @@
     <Compile Include="Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
+    <Compile Include="Assets\GAS\Editor\gaseditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll" />

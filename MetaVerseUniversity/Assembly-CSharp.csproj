@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\Scripts\Login_System.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\Teacher_Script.cs" />
@@ -68,6 +67,14 @@
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Student_Script.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\GAS\Scripts\ActiveAccount.cs" />
+    <Compile Include="Assets\GAS\Scripts\sampleGetInformatio.cs" />
+    <Compile Include="Assets\GAS\Scripts\AccountSystem.cs" />
+    <Compile Include="Assets\GAS\Scripts\ResetPassword.cs" />
+    <Compile Include="Assets\GAS\Scripts\RegisterSystem.cs" />
+    <Compile Include="Assets\GAS\Scripts\LoginSystem.cs" />
+    <Compile Include="Assets\GAS\Scripts\UiAccountManager.cs" />
+    <Compile Include="Assets\GAS\Scripts\forgetPassword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
