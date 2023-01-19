@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Photon.Pun;
 #if (UNITY_STANDALONE || UNITY_EDITOR_WIN || UNITY_EDITOR_OSX ) && (!UNITY_WEBPLAYER && !UNITY_WEBGL)
 using System.Net.NetworkInformation;
 #endif
 
-public class LoginSystem : MonoBehaviour {
+public class LoginSystem : MonoBehaviourPunCallbacks {
 	[SerializeField] private InputField userName;
 	[SerializeField] private InputField passwordName;
 	[SerializeField] public string LoginUrl;
@@ -93,7 +94,8 @@ public class LoginSystem : MonoBehaviour {
 				PlayerPrefs.SetString ("email", split [7].Trim ());
 
 				// After Login do what you want ex. load new scene ...
-				Application.LoadLevel (1);
+				PhotonNetwork.ConnectUsingSettings();
+				
 
 
 			} else if (split [0].Trim () == "2") {
@@ -116,6 +118,14 @@ public class LoginSystem : MonoBehaviour {
 			WarningMsg.text = checkBanned.text;
 		}
 
+	}
+    public override void OnConnectedToMaster()
+    {
+		PhotonNetwork.JoinLobby();
+    }
+    public override void OnJoinedLobby()
+    {
+		Application.LoadLevel("College");
 	}
 }
 

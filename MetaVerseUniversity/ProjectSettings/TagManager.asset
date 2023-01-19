@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Network Manager
+  - Board
   layers:
   - Default
   - TransparentFX
