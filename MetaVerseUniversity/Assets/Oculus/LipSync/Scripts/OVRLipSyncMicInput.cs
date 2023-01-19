@@ -102,7 +102,7 @@ public class OVRLipSyncMicInput : MonoBehaviour
         audioSource.loop = true;     // Set the AudioClip to loop
         audioSource.mute = false;
 
-        InitializeMicrophone();
+        //InitializeMicrophone();
     }
 
     /// <summary>

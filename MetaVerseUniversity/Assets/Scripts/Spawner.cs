@@ -6,7 +6,7 @@ using Photon.Pun;
 public class Spawner : MonoBehaviour
 {
     public GameObject TeacherPreFab;
-    Vector3 TeacherSpawnPoint = new Vector3(-4.4877f, 4.51f, -34.05f);
+    Vector3 TeacherSpawnPoint = new Vector3(8.969511f, -3.800001f, 1.59f);
     // Start is called before the first frame update
     private void Start()
     {
@@ -29,7 +29,7 @@ public class Spawner : MonoBehaviour
 
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
-        PhotonNetwork.Instantiate(TeacherPreFab.name, TeacherSpawnPoint, Quaternion.identity);
+        Instantiate(TeacherPreFab, TeacherSpawnPoint, Quaternion.Euler(0,180,0));
     }
 
 }

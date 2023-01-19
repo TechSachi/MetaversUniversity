@@ -66,7 +66,7 @@ namespace Facebook.WitAi.Lib
             IsRecording = true;
 
             // Available
-            _reader = StartCoroutine(ReadRawAudio(sampleDurationMS));
+           // _reader = StartCoroutine(ReadRawAudio(sampleDurationMS));
         }
 
         // Read raw audio

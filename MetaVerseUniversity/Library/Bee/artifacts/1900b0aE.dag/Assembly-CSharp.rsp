@@ -617,6 +617,7 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Connect.cs"
+"Assets/Scripts/Spawner.cs"
 "Assets/Scripts/Student_Script.cs"
 "Assets/Scripts/Teacher_Script.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
